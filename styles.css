@@ -1,0 +1,76 @@
+body {
+    font-family: 'Calibri', sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to bottom,#523025, #ad715f);
+    display: flex;
+    justify-content: center; /*ako gibutngan display ug justify-content, mao ning maka pa center sa text*/
+    margin: auto;
+    padding: 0;
+    height: 180%;
+    text-align: center;
+}
+
+#lyrics-container{ /*kopyaha ang pagkabutang sa imo id name. kung naay dash butangi sad*/
+    display: flex;
+    flex-direction:column;
+    flex: 1;
+    align-items: center;
+    width: 100%;
+
+}
+
+#page {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#page-container {
+    font-size: 20px;
+    margin: 40px;
+}
+
+#page-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #b48d80be;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 600px;
+    width: 100%;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+#main {
+    text-align: center;
+    width: 100%;
+
+}
+
+#songtitle {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 25px;
+    color:#492c22;
+
+}
+
+#singer {
+    margin: 10px 0;
+    font-size: 25px;
+    color: #492c22;
+}
+
+#song-lyrics {
+    text-align: center;
+    margin: 0 auto;
+    color:rgb(248, 248, 255);
+    max-width: 500px;
+    line-height: 1.7;
+}
+
+
+
